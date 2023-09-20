@@ -47,26 +47,24 @@ class MyApp extends StatelessWidget {
                 child: Column(
                   children: [
                     const SizedBox(
-                      height: 80,
+                      height: 60,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Container(
-                          height: 100,
-                          width: 95,
-                          color: Colors.white,
-                          child: const Icon(
-                            //アイコンは同じものは見つからなかったので近いものにしてます。
-                            Icons.phone_iphone,
-                            size: 100,
-                            color: Colors.red,
+                        SizedBox(
+                          height: 110,
+                          width: 100,
+                          //iconをimageに変更してます。
+                          child: Image.asset(
+                            'lib/images/icon.jpeg',
+                            fit: BoxFit.cover,
                           ),
                         ),
                       ],
                     ),
                     const SizedBox(
-                      height: 45,
+                      height: 55,
                     ),
                     const Row(
                       mainAxisAlignment: MainAxisAlignment.end,

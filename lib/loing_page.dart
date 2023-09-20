@@ -28,6 +28,7 @@ class LoginPage extends StatelessWidget {
                         top: 15,
                       ),
                       prefixIcon: Icon(
+                        //見本はタッチし、アイコンの色が変わりますが、できず、タッチ後の色にしてます。
                         Icons.email,
                         color: Color(0xFFF44336),
                       ),
