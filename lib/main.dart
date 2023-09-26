@@ -81,6 +81,7 @@ class MyApp extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 20,
                                 color: Colors.white,
+                                letterSpacing: -0.5,
                               ),
                             ),
                           ),
@@ -104,14 +105,20 @@ class MyApp extends StatelessWidget {
                       onPressed: null,
                       child: Text(
                         'Forgot Password?',
-                        style: TextStyle(fontSize: 14, color: Colors.black87),
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Colors.black87,
+                          fontWeight: FontWeight.w400,
+                          letterSpacing: -0.1,
+                          height: -0.1,
+                        ),
                       ),
                     ),
                   ),
                 ],
               ),
               const SizedBox(
-                height: 230,
+                height: 245,
               ),
               const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -120,6 +127,7 @@ class MyApp extends StatelessWidget {
                     "Don't have an account?",
                     style: TextStyle(
                       fontSize: 14,
+                      letterSpacing: -0.3,
                     ),
                   ),
                   TextButton(
@@ -130,6 +138,7 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 14,
                         color: Color(0xFFF55B1F),
+                        letterSpacing: -0.3,
                       ),
                     ),
                   )

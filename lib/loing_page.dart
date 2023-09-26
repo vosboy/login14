@@ -62,7 +62,7 @@ class LoginPage extends StatelessWidget {
                       top: 15,
                     ),
                     prefixIcon: Icon(
-                      Icons.key,
+                      Icons.vpn_key_sharp,
                       color: Color(0xFF8C8C8C),
                     ),
                     hintText: 'Password',
